@@ -16,8 +16,6 @@
 			<a
 				class="btn variant-filled"
 				href="/llms"
-				target="_blank"
-				rel="noreferrer"
 			>
 				Enter If You Dare
 			</a>

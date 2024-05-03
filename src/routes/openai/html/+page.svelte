@@ -42,14 +42,15 @@
                 <label class="p-5 text-xl w-36" for="question">Request</label>
                 <input class="flex-right  flex-1  p-5 bg-secondary-100 text-secondary-700 text-lg" type="text" id="question" name="question" value="" />
             </div>
-            <button class="w-72 p-5 m-5 bg-primary-700 align-center text-white text-xl" type="submit">Ask Me</button>
+            <button class="w-72 p-5 m-5 bg-primary-700 align-center text-white text-xl" type="submit">Generate</button>
         </form>
         <div>
             <div>Prompt Tokens : {tokens.prompt}</div>
             <div>Response Tokens : {tokens.response}</div>
         </div>
-        <div class="m-5 p-5 bg-white w-full text-black">
-            {@html answer}
-        </div>        
+        <iframe class="m-5 p-5 bg-white w-full text-black" height="500" srcdoc={answer}></iframe>
+        <code class="language-html">
+            {answer}
+        </code>        
 </div>
 

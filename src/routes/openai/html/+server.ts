@@ -21,11 +21,10 @@ export const POST = async ({request}) => {
     let system = `
         Your response should only be in html code. 
         Do not provide any extra verbage, we only want the code.
-        You are only returning content that goes inside the <body> and do not include the <body> tag
-        Style the page using inline styling. 
-        Do you return the full html for a page, only segments
+        The styling should be in the head in a style tag
         The schools colors are burn orange and navy blue
         Assume any image links that are provided come from this location "https://moderncampus.com/_resources/images/leadership/pdevries-circle.webp" and images should be 100 x 100
+        The web page must be accessible
     `
     
 
