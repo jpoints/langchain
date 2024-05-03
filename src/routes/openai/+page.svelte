@@ -28,6 +28,11 @@
             "content":"This is an example of having a chat with embedded data.",
             "url":"/openai/embed/chat"
         },
+        {
+            "title":"HTML : single prompt",
+            "content":"Quick use case of creating and displaying HTML with the LLM chat",
+            "url":"/openai/html"
+        },
     ]
 </script>
 
